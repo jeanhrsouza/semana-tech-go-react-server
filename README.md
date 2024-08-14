@@ -13,6 +13,11 @@ docker compose up
 docker compose start
 ```
 
+## Rodar servidor
+```bash
+go run cmd/wsrs/main.go
+```
+
 ## executar as migrations
 ```bash
 go run cmd/tools/terndotenv/main.go
@@ -26,4 +31,12 @@ go run cmd/tools/terndotenv/main.go
 ```bash
  go generate ./...
 ```
+
+
+
+Libs
+pgx
+godotenv
+chi
+gorilla
 
